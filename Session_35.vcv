@@ -1,0 +1,889 @@
+{
+  "version": "0.5.1",
+  "modules": [
+    {
+      "plugin": "Befaco",
+      "model": "EvenVCO",
+      "pos": [
+        585.0,
+        380.0
+      ],
+      "params": [
+        -3.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "JW-Modules",
+      "model": "GridSeq",
+      "pos": [
+        285.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        16.0,
+        0.0,
+        0.0,
+        5.0,
+        2.6850020885467529,
+        0.0,
+        2.369999885559082,
+        0.0,
+        3.6300055980682373,
+        0.0,
+        3.0,
+        0.0,
+        3.0,
+        0.0,
+        1.6499992609024048,
+        0.0,
+        2.385000467300415,
+        0.0,
+        3.5699996948242188,
+        0.0,
+        3.0,
+        0.0,
+        1.2900002002716064,
+        0.0,
+        2.7299990653991699,
+        0.0,
+        2.5499992370605469,
+        0.0,
+        3.0,
+        0.0,
+        2.3550000190734863,
+        0.0,
+        2.6850013732910156,
+        0.0,
+        2.025001049041748,
+        0.0
+      ],
+      "data": {
+        "running": true,
+        "ignoreGateOnPitchOut": false,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "gateMode": 0
+      }
+    },
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        2070.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 5,
+        "device": 1,
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "AS",
+      "model": "Mixer8ch",
+      "pos": [
+        1035.0,
+        760.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.80000001192092896,
+        0.0
+      ],
+      "data": {
+        "as_MixerMutes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "plugin": "Lindenberg Research",
+      "model": "LPFilter24dB",
+      "pos": [
+        705.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "pos": [
+        1875.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -16.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      }
+    },
+    {
+      "plugin": "Befaco",
+      "model": "Rampage",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        0.0,
+        0.11699998378753662,
+        0.59699922800064087,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.67650091648101807,
+        0.67350053787231445,
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCA",
+      "pos": [
+        855.0,
+        380.0
+      ],
+      "params": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "plugin": "NYSTHI",
+      "model": "complexSimpler",
+      "pos": [
+        975.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "nysthi_id": "SIMPLER_6sdSSOQe",
+        "m_nysthi_file_id": "/Users/simonlast/Documents/Rack/plugins/NYSTHI/cache/SIMPLER_6sdSSOQe_20180216_094740_O73mHH.wav",
+        "m_original_file_name": "",
+        "m_gated": true
+      }
+    },
+    {
+      "plugin": "Autodafe",
+      "model": "Clock Divider",
+      "pos": [
+        270.0,
+        0.0
+      ],
+      "params": [
+        0.0
+      ]
+    },
+    {
+      "plugin": "NYSTHI",
+      "model": "complexSimpler",
+      "pos": [
+        1260.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "data": {
+        "nysthi_id": "SIMPLER_6sdSSOQe",
+        "m_nysthi_file_id": "/Users/simonlast/Documents/Rack/plugins/NYSTHI/cache/SIMPLER_6sdSSOQe_20180216_094740_O73mHH.wav",
+        "m_original_file_name": "",
+        "m_gated": true
+      }
+    },
+    {
+      "plugin": "NYSTHI",
+      "model": "complexSimpler",
+      "pos": [
+        1545.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "data": {
+        "nysthi_id": "SIMPLER_6sdSSOQe",
+        "m_nysthi_file_id": "/Users/simonlast/Documents/Rack/plugins/NYSTHI/cache/SIMPLER_6sdSSOQe_20180216_094740_O73mHH.wav",
+        "m_original_file_name": "",
+        "m_gated": true
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Branches",
+      "pos": [
+        420.0,
+        0.0
+      ],
+      "params": [
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "EvenVCO",
+      "pos": [
+        585.0,
+        760.0
+      ],
+      "params": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Lindenberg Research",
+      "model": "LPFilter24dB",
+      "pos": [
+        1080.0,
+        380.0
+      ],
+      "params": [
+        1.0,
+        -0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Lindenberg Research",
+      "model": "LPFilter24dB",
+      "pos": [
+        1365.0,
+        380.0
+      ],
+      "params": [
+        1.0,
+        -0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Lindenberg Research",
+      "model": "LPFilter24dB",
+      "pos": [
+        1650.0,
+        380.0
+      ],
+      "params": [
+        1.0,
+        -0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Branches",
+      "pos": [
+        510.0,
+        0.0
+      ],
+      "params": [
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "SlewLimiter",
+      "pos": [
+        495.0,
+        760.0
+      ],
+      "params": [
+        0.0,
+        0.4559997022151947,
+        0.46049994230270386
+      ]
+    },
+    {
+      "plugin": "NYSTHI",
+      "model": "complexSimpler",
+      "pos": [
+        870.0,
+        1140.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "nysthi_id": "SIMPLER_6sdSSOQe",
+        "m_nysthi_file_id": "/Users/simonlast/Documents/Rack/plugins/NYSTHI/cache/SIMPLER_6sdSSOQe_20180216_094740_O73mHH.wav",
+        "m_original_file_name": "",
+        "m_gated": true
+      }
+    },
+    {
+      "plugin": "NYSTHI",
+      "model": "complexSimpler",
+      "pos": [
+        975.0,
+        1140.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "nysthi_id": "SIMPLER_6sdSSOQe",
+        "m_nysthi_file_id": "/Users/simonlast/Documents/Rack/plugins/NYSTHI/cache/SIMPLER_6sdSSOQe_20180216_094740_O73mHH.wav",
+        "m_original_file_name": "",
+        "m_gated": true
+      }
+    },
+    {
+      "plugin": "NYSTHI",
+      "model": "complexSimpler",
+      "pos": [
+        1080.0,
+        1140.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "nysthi_id": "SIMPLER_6sdSSOQe",
+        "m_nysthi_file_id": "/Users/simonlast/Documents/Rack/plugins/NYSTHI/cache/SIMPLER_6sdSSOQe_20180216_094740_O73mHH.wav",
+        "m_original_file_name": "",
+        "m_gated": true
+      }
+    },
+    {
+      "plugin": "AS",
+      "model": "Mixer8ch",
+      "pos": [
+        1050.0,
+        1520.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.80000001192092896,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.80000001192092896,
+        0.0
+      ],
+      "data": {
+        "as_MixerMutes": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "plugin": "ParableInstruments",
+      "model": "Neil",
+      "pos": [
+        1440.0,
+        1520.0
+      ],
+      "params": [
+        0.5,
+        0.5,
+        0.0,
+        1.0,
+        0.5,
+        0.5,
+        0.0,
+        0.5,
+        0.5,
+        0.42500007152557373,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "playbackmode": 0,
+        "lofi": 0,
+        "mono": 0,
+        "freeze": 0,
+        "buffersize": 1,
+        "reverse": 0
+      }
+    },
+    {
+      "plugin": "ML_modules",
+      "model": "TrigDelay",
+      "pos": [
+        735.0,
+        1140.0
+      ],
+      "params": [
+        0.0,
+        2.0,
+        0.0,
+        0.10000000149011612
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 0,
+      "outputId": 3,
+      "inputModuleId": 4,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 18,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 3,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 3,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 9,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 2,
+      "inputModuleId": 1,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 2,
+      "inputModuleId": 11,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 9
+    },
+    {
+      "outputModuleId": 13,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 8,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 2,
+      "inputModuleId": 11,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 8,
+      "inputModuleId": 19,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 8,
+      "inputModuleId": 20,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 8,
+      "inputModuleId": 21,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 20,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 21,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 8,
+      "inputModuleId": 22,
+      "inputId": 9
+    },
+    {
+      "outputModuleId": 22,
+      "outputId": 8,
+      "inputModuleId": 23,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 23,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 23,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 24,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 24,
+      "outputId": 0,
+      "inputModuleId": 19,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 19,
+      "inputId": 2
+    }
+  ]
+}
